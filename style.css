@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(27, 27, 27);
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  table {
+    border-collapse: separate;
+    border-spacing: 10px 5px;
+  }
+  
+  .heading {
+    color: white;
+    font-size: 40px;
+    padding: 15px 15px 15px 0px;
+    font-weight: bold;
+    text-transform: lowercase;
+  }
+  
+  .green {
+    color: rgb(135, 236, 140);
+    font-style: italic;
+    padding: 0px 0px 10px 0px;
+  }
+  
+  .para {
+    color: rgb(156, 156, 156);
+    padding-bottom: 30px;
+    text-align: justify;
+  }
+  
+  .icon {
+    color: greenyellow;
+    font-size: 30px;
+    padding: 15px 0px 0px 0px;
+  }
+  
+  .sub-heading {
+    font-weight: bolder;
+    font-size: 20px;
+    padding: 20px 0px 0px 0px;
+    color: white;
+  }
+  
+  .sub-para {
+    color: rgb(156, 156, 156);
+    padding: 15px 0px 15px 0px;
+    line-height: 20px;
+    text-align: left;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .image {
+      height: 850px;
+    }
+  }
